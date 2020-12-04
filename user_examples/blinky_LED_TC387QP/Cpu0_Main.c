@@ -63,5 +63,6 @@ void core0_main(void)
     while(1)
     {
         blinkLED(); /* Make the LED blink           */
+        increment_variables();
     }
 }
